@@ -1,0 +1,120 @@
+#todo-form {
+  margin: 0 auto;
+  }
+  
+  .my-todo-item {
+  background-color: #00c853; /* changed from #f8f9fa /
+  color: #fff; / changed from #495057 */
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1.1em;
+  }
+  
+  #todo-list {
+  margin-top: 20px;
+  }
+  
+  .form-spacing {
+  margin-bottom: 20px;
+  }
+  
+  .list-spacing {
+  margin-top: 20px;
+  }
+  
+  /* Add these classes to make the buttons green */
+  .btn-danger, .btn-primary, .btn-success {
+  background-color: #00c853;
+  color: #fff;
+  border-color: #00c853;
+  }
+  
+  /* Add this class to make the text of the task white */
+  .task-text {
+  color: #fff;
+  }
+  
+  /* Add this class to make the text of the date white */
+  .ml-auto {
+  color: #fff;
+  }
+  
+  /* Add this class to make the text of the priority white */
+  .priority-select {
+  color: #fff;
+  }
+  
+  /* Add this class to make the background of the select green */
+  .priority-select {
+  background-color: #00c853;
+  }
+
+  .delete-button, .edit-button {
+    background-color: white;
+    color: green;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+#todo-list button.delete-button:hover {
+  background-color: #e74c3c; /* dark red */
+  color: white;
+}
+
+#todo-list button.edit-button:hover {
+  background-color: #4CAF50; /* dark green */
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1em;
+}
+
+.hero {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero h2 {
+  margin: 1em 0;
+}
+
+.cta {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.features {
+  flex: 1 1 100%;
+}
+
+.features h2 {
+  margin: 0
+}
